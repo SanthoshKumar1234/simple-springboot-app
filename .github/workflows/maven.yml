@@ -27,13 +27,8 @@ jobs:
       run: |
         git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
         ls
-        cd simple-springboot-app
-        ls
-        cd simple-springboot-app
-        ls
-        cd src/main/java/com/springboot/controller/
-        ls
-        cat StudentController.java
+        cat simple-springboot-app/simple-springboot-app/src/main/java/com/springboot/controller/StudentController.java
+        
         
 
       
