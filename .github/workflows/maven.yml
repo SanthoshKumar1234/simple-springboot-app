@@ -11,10 +11,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    
     steps:
-    
-    
     
     - name: Print multiple words
       run: |
@@ -30,4 +28,13 @@ jobs:
         mvn install
         
 
-      
+   test:
+
+      runs-on: ubuntu-latest
+
+      steps:
+
+      - name: Test
+        run: |
+        cd  simple-springboot-app/simple-springboot-app
+        mvn test   
