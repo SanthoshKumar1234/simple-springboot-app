@@ -21,4 +21,8 @@ jobs:
        echo "Hello-word"
        echo "Hi"
        echo "Welcome to Github-Actions"
+
+
+    -name: Cloning the github code
+     run: git clone
       
