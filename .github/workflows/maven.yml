@@ -16,14 +16,14 @@ jobs:
     
     
     
-    -name: Print multiple words
-     run: |
+    - name: Print multiple words
+      run: |
        echo "Hello-word"
        echo "Hi"
        echo "Welcome to Github-Actions"
 
 
-    -name: Cloning the github code
-     run: |
-       git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
+    - name: Cloning the github code
+      run: |
+        git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
       
