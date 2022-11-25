@@ -31,5 +31,7 @@ jobs:
         ls
         cd simple-springboot-app
         ls
+        cd src/main/java/com/springboot/controller/
+        ls
 
       
