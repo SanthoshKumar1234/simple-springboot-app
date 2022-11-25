@@ -25,7 +25,6 @@ jobs:
       run: |
         git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
         cd simple-springboot-app/simple-springboot-app
-        mvn install
         
 
   test:
