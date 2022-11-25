@@ -24,5 +24,6 @@ jobs:
 
 
     -name: Cloning the github code
-     run: git clone
+     run: |
+       git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
       
