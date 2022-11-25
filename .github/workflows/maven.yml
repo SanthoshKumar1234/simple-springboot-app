@@ -27,5 +27,7 @@ jobs:
       run: |
         git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
         ls
-        
+        cd simple-springboot-app
+        ls
+
       
