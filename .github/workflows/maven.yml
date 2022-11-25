@@ -29,5 +29,7 @@ jobs:
         ls
         cd simple-springboot-app
         ls
+        cd simple-springboot-app
+        ls
 
       
