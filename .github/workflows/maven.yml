@@ -28,7 +28,7 @@ jobs:
         mvn install
         
 
-   test:
+  test:
 
       runs-on: ubuntu-latest
 
