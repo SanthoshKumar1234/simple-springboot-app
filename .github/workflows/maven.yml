@@ -18,5 +18,7 @@ jobs:
     
     - name: Print multiple words
       run: |
-      echo Hello-word, Hi, Welcome to Github-Actions
-     
+       echo "Hello-word"
+       echo "Hi"
+       echo "Welcome to Github-Actions"
+      
