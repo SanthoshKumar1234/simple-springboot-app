@@ -26,9 +26,7 @@ jobs:
     - name: Cloning the github code
       run: |
         git clone https://github.com/SanthoshKumar1234/simple-springboot-app.git
-        ls
-        cat simple-springboot-app/simple-springboot-app/src/main/java/com/springboot/controller/StudentController.java
-        
+        mvn install
         
 
       
